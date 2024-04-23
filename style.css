@@ -1,0 +1,16 @@
+.container {
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  flex-shrink: 0;
+}
+
+.cell {
+  background-color: lightgray;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
