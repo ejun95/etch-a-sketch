@@ -1,0 +1,1 @@
+A simple webpage where you can draw on a 16x16 canvas using your mouse.
