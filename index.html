@@ -1,15 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Etch-a-Sketch</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./index.js" defer></script>
+    <link rel='stylesheet' href='./style.css'>
+    <script src='./index.js' defer></script>
   </head>
 
   <body>
-    <div class="container">
-    </div>
+    <div class='main-container'>
+      <div class='header'>
+        <h1>Etch-a-Sketch</h1>
+      </div>
+      <div class='work-area'>
+        <div class='flex-container'></div>
+        <div class='grid'>
+        </div>
+        <div class='tools'>
+          <input type='color' id='color-picker'>
+          <label for='gridSize'>Grid Size</label>
+          <input type='number' value='16' min='1' max='128' step='1' name='gridSize' id='gridSize' required>
+          <button type='button' class='button' id='reset-button'>Clear</button>
+          <input type='checkbox' id='show-grid' unchecked/>
+          <label for='show-grid'>Show grid</label>
+          <input type='checkbox' id='crazy-colors' unchecked/>
+          <label for='crazy-colors'>Crazy COLORS</label>
+          <input type='checkbox' id='darken' unchecked/>
+          <label for='darken'>Darken</label>
+          <input type='checkbox' id='lighten' unchecked/>
+          <label for='lighten'>Lighten</label>
+        </div>
+      </div> 
+      <div class='footer'>
+        <span>Created by ejun95</span>
+      </div>
+    </div>   
   </body>
 </html>
